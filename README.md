@@ -2,8 +2,6 @@
 
 > Customizable animation for flicking elements from one list to another for react-native
 
-[![NPM Version][npm-image]][https://www.npmjs.com/package/react-native-grouper]
-
 ## Install
 
 ```bash
@@ -22,17 +20,15 @@ npm i react-native-grouper
 
 Basic code for the example above:
 
-```react
+```JSX
 import React, { useState } from "react";
 import { Image, SafeAreaView, StyleSheet, View, Text } from 'react-native';
 import { Grouper, SourceList, TargetList } from 'react-native-grouper';
 
 const APP = () => {
 
-  const [names, setNames] = useState([]);  // You need to declare a state and give the setState
-  																				// as a prop to Grouper in order to use the values in
-  																				// your app. You can name it however you like.
-
+  const [names, setNames] = useState([]);  // You need to declare a state and give the setState as a prop to Grouper in order to use the values in your app. You can name it however you like.
+ 
   return (
     <SafeAreaView style={{ backgroundColor: 'black' }}>
       <Grouper setValues={setNames}>    // the prop needs to be called setValues!
