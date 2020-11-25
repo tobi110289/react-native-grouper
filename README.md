@@ -2,7 +2,7 @@
 
 > Customizable animation for flicking elements from one list to another for react-native
 
-[![NPM Version][npm-image]][npm-url]
+[![NPM Version][npm-image]][https://www.npmjs.com/package/react-native-grouper]
 
 ## Install
 
@@ -14,7 +14,7 @@ npm i react-native-grouper
 
 
 
-![grouper](/Users/tobias/Downloads/319c0c8f82ef285489f5-6b4824ff748f352ea7ff5869ed7668c23cdf2f76/assets/grouper.gif)
+![grouper](./assets/grouper.gif)
 
 
 
